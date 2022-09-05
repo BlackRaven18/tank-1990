@@ -1,0 +1,88 @@
+# depslib dependency file v1.0
+1621275692 source:c:\users\nusty\desktop\studia\programowanie_main\projekt_tank\tank\tank 1990 final\libraries_files\animations.c
+	"../headers_files/animations.h"
+
+1621275800 c:\users\nusty\desktop\studia\programowanie_main\projekt_tank\tank\tank 1990 final\headers_files\animations.h
+	"raylib.h"
+	"engine.h"
+
+1622221198 c:\users\nusty\desktop\studia\programowanie_main\projekt_tank\tank\tank 1990 final\headers_files\engine.h
+	"raylib.h"
+	<time.h>
+
+1622221198 source:c:\users\nusty\desktop\studia\programowanie_main\projekt_tank\tank\tank 1990 final\libraries_files\collisions.c
+	"../headers_files/collisions.h"
+
+1621455392 c:\users\nusty\desktop\studia\programowanie_main\projekt_tank\tank\tank 1990 final\headers_files\collisions.h
+	"engine.h"
+	"raylib.h"
+	"map_management.h"
+	"player_and_enemies.h"
+
+1621262712 c:\users\nusty\desktop\studia\programowanie_main\projekt_tank\tank\tank 1990 final\headers_files\map_management.h
+	"raylib.h"
+	"engine.h"
+	<stdio.h>
+
+1621453824 c:\users\nusty\desktop\studia\programowanie_main\projekt_tank\tank\tank 1990 final\headers_files\player_and_enemies.h
+	"raylib.h"
+	"engine.h"
+	"map_management.h"
+	"collisions.h"
+
+1619071890 source:c:\users\nusty\desktop\studia\programowanie_main\projekt_tank\tank\tank 1990 final\libraries_files\engine.c
+	"../headers_files/engine.h"
+
+1622220377 source:c:\users\nusty\desktop\studia\programowanie_main\projekt_tank\tank\tank 1990 final\libraries_files\main_menu.c
+	"../headers_files/main_menu.h"
+
+1622220377 c:\users\nusty\desktop\studia\programowanie_main\projekt_tank\tank\tank 1990 final\headers_files\main_menu.h
+	"raylib.h"
+	"engine.h"
+
+1622210641 source:c:\users\nusty\desktop\studia\programowanie_main\projekt_tank\tank\tank 1990 final\libraries_files\map_editor.c
+	"../headers_files/map_editor.h"
+
+1622210133 c:\users\nusty\desktop\studia\programowanie_main\projekt_tank\tank\tank 1990 final\headers_files\map_editor.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"engine.h"
+	"raylib.h"
+	"map_management.h"
+	<sys/stat.h>
+
+1621262712 source:c:\users\nusty\desktop\studia\programowanie_main\projekt_tank\tank\tank 1990 final\libraries_files\map_management.c
+	"../headers_files/map_management.h"
+
+1622221395 source:c:\users\nusty\desktop\studia\programowanie_main\projekt_tank\tank\tank 1990 final\libraries_files\player_and_enemies.c
+	"../headers_files/player_and_enemies.h"
+	<time.h>
+
+1622221198 source:c:\users\nusty\desktop\studia\programowanie_main\projekt_tank\tank\tank 1990 final\libraries_files\shooting.c
+	"../headers_files/shooting.h"
+
+1622211613 c:\users\nusty\desktop\studia\programowanie_main\projekt_tank\tank\tank 1990 final\headers_files\shooting.h
+	"raylib.h"
+	"engine.h"
+	<stdio.h>
+	"map_management.h"
+	"player_and_enemies.h"
+	"collisions.h"
+	"animations.h"
+
+1622221198 source:c:\users\nusty\desktop\studia\programowanie_main\projekt_tank\tank\tank 1990 final\main.c
+	"raylib.h"
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<stdbool.h>
+	"headers_files/engine.h"
+	"headers_files/player_and_enemies.h"
+	"headers_files/shooting.h"
+	"headers_files/map_management.h"
+	"headers_files/collisions.h"
+	"headers_files/main_menu.h"
+	"headers_files/animations.h"
+	"headers_files/map_editor.h"
+

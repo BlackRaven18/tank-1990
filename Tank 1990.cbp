@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Tank 1990" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Tank 1990" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Tank 1990" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="headers_files/animations.h" />
+		<Unit filename="headers_files/collisions.h" />
+		<Unit filename="headers_files/engine.h" />
+		<Unit filename="headers_files/main_menu.h" />
+		<Unit filename="headers_files/map_editor.h" />
+		<Unit filename="headers_files/map_management.h" />
+		<Unit filename="headers_files/player_and_enemies.h" />
+		<Unit filename="headers_files/shooting.h" />
+		<Unit filename="libraries_files/animations.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libraries_files/collisions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libraries_files/engine.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libraries_files/main_menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libraries_files/map_editor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libraries_files/map_management.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libraries_files/player_and_enemies.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libraries_files/shooting.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
